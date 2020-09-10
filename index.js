@@ -115,3 +115,9 @@ if (document.documentElement.scrollTop > 1453 && document.documentElement.scroll
     document.querySelector("#span5").classList.remove("flux")
 }
 }
+
+window.onload=function(){
+  document.getElementById("span1").addEventListener("onclick", function(){
+    window.scrollBy(0,364);
+  });
+}
