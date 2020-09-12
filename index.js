@@ -116,8 +116,158 @@ if (document.documentElement.scrollTop > 1453 && document.documentElement.scroll
 }
 }
 
+// window.onload=function(){
+  
+//   document.getElementById("span1").addEventListener("click",function(){
+
+//     if ( document.documentElement.scrollTop < 363 ){
+//       window.scrollTo(0,0);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 364 && document.documentElement.scrollTop < 726){
+//       window.scrollTo(0,364);
+      
+//     }
+//     if (document.documentElement.scrollTop > 727 && document.documentElement.scrollTop < 1089 ){
+//       window.scrollTo(0,727);
+      
+//     }
+//     if (document.documentElement.scrollTop > 1090 && document.documentElement.scrollTop < 1452){
+//       window.scrollTo(0,1090);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 1453 && document.documentElement.scrollTop < 1811 ){
+//       window.scrollTo(0,1453);
+      
+//     }
+
+// })
+
+        
+//   document.getElementById("span2").addEventListener("click", function(){
+          
+//     if ( document.documentElement.scrollTop < 363 ){
+//       window.scrollTo(0,0);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 364 && document.documentElement.scrollTop < 726){
+//       window.scrollTo(0,364);
+      
+//     }
+//     if (document.documentElement.scrollTop > 727 && document.documentElement.scrollTop < 1089 ){
+//       window.scrollTo(0,727);
+      
+//     }
+//     if (document.documentElement.scrollTop > 1090 && document.documentElement.scrollTop < 1452){
+//       window.scrollTo(0,1090);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 1453 && document.documentElement.scrollTop < 1811 ){
+//       window.scrollTo(0,1453);
+      
+//     }
+
+//   });
+//   document.getElementById("span3").addEventListener("click", function(){
+    
+//     if ( document.documentElement.scrollTop < 363 ){
+//       window.scrollTo(0,0);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 364 && document.documentElement.scrollTop < 726){
+//       window.scrollTo(0,364);
+      
+//     }
+//     if (document.documentElement.scrollTop > 727 && document.documentElement.scrollTop < 1089 ){
+//       window.scrollTo(0,727);
+      
+//     }
+//     if (document.documentElement.scrollTop > 1090 && document.documentElement.scrollTop < 1452){
+//       window.scrollTo(0,1090);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 1453 && document.documentElement.scrollTop < 1811 ){
+//       window.scrollTo(0,1453);
+      
+//     }
+
+
+//   });
+//   document.getElementById("span4").addEventListener("click", function(){
+    
+//     if ( document.documentElement.scrollTop < 363 ){
+//       window.scrollTo(0,0);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 364 && document.documentElement.scrollTop < 726){
+//       window.scrollTo(0,364);
+      
+//     }
+//     if (document.documentElement.scrollTop > 727 && document.documentElement.scrollTop < 1089 ){
+//       window.scrollTo(0,727);
+      
+//     }
+//     if (document.documentElement.scrollTop > 1090 && document.documentElement.scrollTop < 1452){
+//       window.scrollTo(0,1090);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 1453 && document.documentElement.scrollTop < 1811 ){
+//       window.scrollTo(0,1453);
+      
+//     }
+
+//   });
+//   document.getElementById("span5").addEventListener("click", function(){
+    
+//     if ( document.documentElement.scrollTop < 363 ){
+//       window.scrollTo(0,0);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 364 && document.documentElement.scrollTop < 726){
+//       window.scrollTo(0,364);
+      
+//     }
+//     if (document.documentElement.scrollTop > 727 && document.documentElement.scrollTop < 1089 ){
+//       window.scrollTo(0,727);
+      
+//     }
+//     if (document.documentElement.scrollTop > 1090 && document.documentElement.scrollTop < 1452){
+//       window.scrollTo(0,1090);
+      
+//     }
+//     if ( document.documentElement.scrollTop > 1453 && document.documentElement.scrollTop < 1811 ){
+//       window.scrollTo(0,1453);
+      
+//     }
+
+//   });
+
+// }
+
+
+
+
+
 window.onload=function(){
-  document.getElementById("span1").addEventListener("onclick", function(){
-    window.scrollBy(0,364);
-  });
+
+document.getElementById("span1").addEventListener("click",function(){
+  window.scrollTo(0,1)
+})
+
+document.getElementById("span2").addEventListener("click",function(){
+  window.scrollTo(0,365)
+})
+
+document.getElementById("span3").addEventListener("click",function(){
+  window.scrollTo(0,728)
+})
+
+document.getElementById("span4").addEventListener("click",function(){
+  window.scrollTo(0,1091)
+})
+
+document.getElementById("span5").addEventListener("click",function(){
+  window.scrollTo(0,1454)
+})
+
 }

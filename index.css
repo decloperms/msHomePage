@@ -95,7 +95,25 @@ html {
         }
 
 
-
+        #span1{
+          cursor: grabbing;
+        }
+        
+        #span2{
+          cursor: grabbing;
+        }
+        
+        #span3{
+          cursor: grabbing;
+        }
+        
+        #span4{
+          cursor: grabbing;
+        }
+        
+        #span5{
+          cursor: grabbing;
+        }
 
 
 
